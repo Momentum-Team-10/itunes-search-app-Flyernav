@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="main.js" defer></script>
-  <title>Music Search</title>
-</head>
-<body>
-<div class="search">
-<input type="text" id="artist" name="Artist" required>
-<button id="submit" type="submit">Submit</button>
-</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Music Search</title>
+  </head>
+  <body>
+    <h1>Cool Music Search</h1>
+    <form id="search-form">
+      <div class="search">
+        <input type="text" id="artist" name="Artist" required />
+        <button id="submit" type="submit">Submit</button>
+      </div>
+      <div>
+        <div id="musicList"></div>
+      </div>
+    </form>
+  </body>
 </html>
